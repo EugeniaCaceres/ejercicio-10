@@ -1,0 +1,16 @@
+.grilla-colores{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.grilla-colores .col {
+    flex: 0 0 calc(33.3333% - 1.3333rem);
+    max-width: calc(33.3333% - 1.3333rem);
+    box-sizing: border-box;
+  }
+
+.item{
+    width: 100%;
+}
